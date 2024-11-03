@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Clothing Store</title>
+    <style>
+        /* CSS styles for the content */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding-right: 30px; /* Add padding to create space between containers */
+        }
+        .product {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        img {
+            max-width: 60%;
+            height: auto;
+        }
+        .link-button {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 10px 10px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .link-button:hover {
+            background-color: #0056b3;
+        }
+        /* Added styles to arrange product containers horizontally */
+        .product-container {
+            display: flex;
+            justify-content: flex-start; /* Add space between the product containers */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to StylePulse</h1>
+    <div class="product-container"> <!-- Wrap product containers in a parent container -->
+        <div class="container">
+            <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd2%2Fba%2Fd2baf3c84fdc9005573516456d462bdcf92383a2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                 alt="Clothing Image">
+            <p> Price: 699,00 kr.</p>
+            <a href="https://www2.hm.com/sv_se/productpage.1215599001.html" class="link-button" target="_blank">View Product</a>
+        </div>
+        <div class="container">
+            <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F36%2F40%2F3640f1dbe1a628cad6792703ac1c8c31b8f495a3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                 alt="Clothing Image">
+            <p>Price: 549,00 kr.</p>
+            <a href="https://www2.hm.com/sv_se/productpage.1194924001.html" class="link-button" target="_blank">View Product</a>
+        </div>
+        <div class="container">
+            <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F9c%2Fbd%2F9cbd37305c5093f9473a1774d01a9e5d2bae5ba3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                 alt="Clothing Image">
+            <p>Price: 199,00 kr.</p>
+            <a href="https://www2.hm.com/sv_se/productpage.1195434005.html" class="link-button" target="_blank">View Product</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppingmode</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: pink;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        input[type="email"] {
+            padding: 10px;
+            font-size: 1em;
+            margin-top: 10px;
+        }
+        button {
+            padding: 10px;
+            font-size: 1em;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hej</h1>
+        <p>Fyll i din e-postadress:</p>
+        <input type="email" id="email" placeholder="Din e-postadress">
+        <button onclick="alert('E-postadress inskickad!')">Skicka</button>
+    </div>
+</body>
+</html>
